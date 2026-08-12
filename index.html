@@ -312,6 +312,33 @@
     });
 
   });
+  
+  // Mobile submenu handling
+const dropdownLinks = document.querySelectorAll(
+  '#menu-main-menu li.menu-item-has-children > .dropdownlink'
+);
+
+dropdownLinks.forEach(function (dropdownLink) {
+
+  dropdownLink.addEventListener('click', function (event) {
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    const menuItem = dropdownLink.parentElement;
+    const subMenu = menuItem.querySelector(':scope > .sub-menu');
+
+    if (!subMenu) {
+      return;
+    }
+
+    const isOpen = subMenu.style.display === 'block';
+
+    subMenu.style.display = isOpen ? 'none' : 'block';
+
+  });
+
+});
 </script>
 
 </body>
