@@ -114,7 +114,7 @@ img{height:auto}
 
 .menu-bar #menu-main-menu li.menu-item-has-children>.dropdownlink{position:absolute;right:12px;top:50%;display:inline-block;vertical-align:middle;margin-top:-1px}
 
-.menu-bar #menu-main-menu li.menu-item-has-children .dropdownlink:before{width:4px;height:7px;content:'';background:url(//devlawbowl.wpengine.com/wp-content/themes/lawbowling/images/arrows.png) left top no-repeat;background-size:4px 14px;display:block}
+.menu-bar #menu-main-menu li.menu-item-has-children .dropdownlink:before{width:4px;height:7px;content:'';background-size:4px 14px;display:block}
 
 .menu-bar #menu-main-menu li ul.sub-menu{transform-origin:0 0;transition:all .3s;-webkit-transition:all .3s;transform:scale(1,0);opacity:0;width:280px;position:absolute;left:0;top:100%;background:#7f9ec0;padding-bottom:0}
 
@@ -150,7 +150,7 @@ img{height:auto}
 
 .colorcoontent-bar.innerpage h2,.colorcoontent-bar.innerpage h1{padding-bottom:41px;margin-bottom:31px;text-align:left}
 
-.formcontent-bar{padding-bottom:75px;background:url(//devlawbowl.wpengine.com/wp-content/themes/lawbowling/images/line-bg1.jpg) no-repeat;background-size:cover}
+.formcontent-bar{padding-bottom:75px;background-size:cover}
 
 .formcontent-bar h2{padding-bottom:41px;margin-bottom:31px;border-bottom:#004081 solid 2px}
 
@@ -200,7 +200,7 @@ img{height:auto}
 
 .contentnav-bar .navigationblock li a{padding:10px 25px 10px 15px;display:block;font-size:24px;line-height:37px;position:relative;letter-spacing:.24px;color:#fff}
 
-.contentnav-bar .navigationblock li a:before{content:"";position:absolute;left:-5px;top:20px;width:10px;height:16px;background:url(//devlawbowl.wpengine.com/wp-content/themes/lawbowling/images/blue_arrow.png) no-repeat}
+.contentnav-bar .navigationblock li a:before{content:"";position:absolute;left:-5px;top:20px;width:10px;height:16px;}
 
 .contentnav-bar .navigationblock li li a:before{left:-5px;top:20px;width:6px;height:6px;border-radius:50%;background:#13b9f0}
 
@@ -635,7 +635,7 @@ textarea {
    * or use the `javascript:` pseudo protocol
    */
 
-  
+
   img {
     page-break-inside: avoid;
   }
@@ -651,7 +651,7 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-  
+
   .profile-img{
 	width: 100%;
 	height: auto;
